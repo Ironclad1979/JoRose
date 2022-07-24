@@ -139,6 +139,19 @@ h1 {
 
 /* GOODS PAGE  */
 
+#goods {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+}
+
+#goods li a {
+  display: flex;
+  flex-direction: column;
+}
+/*
 @media (max-width: 750px) {
   #goods {
     font-size: 14px;
@@ -180,7 +193,7 @@ h1 {
 h2 {
   font-size: 2em;
 }
-
+*/
 /* ABOUT PAGE */
 
 #about {
@@ -190,7 +203,7 @@ h2 {
 
 h3 {
   border-bottom: solid;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 @media (min-width: 750px) {
@@ -221,20 +234,24 @@ h4 {
   flex-wrap: wrap;
 }
 
-#news img {
-  height: 60px;
-  width: 60px;
+#news li {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-}
-
-.roadMap {
-  height: 100px;
-  width: 100px;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
 }
 
 /* News Page */
+
+/* Dashboard */
+
+#dashboard {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Dashboare */
 
 /* CONTACT PAGE */
 
